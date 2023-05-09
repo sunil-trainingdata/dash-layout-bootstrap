@@ -25,7 +25,7 @@ app.layout = html.Div(className='row', children=[
             width={"size": 12},
         ), 
         dbc.Col(
-            dcc.Graph(id='example-graph', figure={'data': [{"alignmentgroup":"True","hovertemplate":"City=SF<br>Fruit=%{x}<br>Amount=%{y}<extra></extra>","legendgroup":"SF","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"Dataset #1","offsetgroup":"SF","orientation":"v","showlegend":true,"textposition":"auto","type":"bar","x":["Apples","Oranges","Bananas"],"xaxis":"x","y":[4,1,2],"yaxis":"y"},{"alignmentgroup":"True","hovertemplate":"City=Montreal<br>Fruit=%{x}<br>Amount=%{y}<extra></extra>","legendgroup":"Montreal","marker":{"color":"#EF553B","pattern":{"shape":""}},"name":"Dataset #2","offsetgroup":"Montreal","orientation":"v","showlegend":true,"textposition":"auto","type":"bar","x":["Apples","Oranges","Bananas"],"xaxis":"x","y":[2,4,5],"yaxis":"y"}]}),
+            dcc.Graph(id='example-graph', figure={'data': [{"alignmentgroup":"True","hovertemplate":"City=SF<br>Fruit=%{x}<br>Amount=%{y}<extra></extra>","legendgroup":"SF","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"Dataset #1","offsetgroup":"SF","orientation":"v","showlegend":"true","textposition":"auto","type":"bar","x":["Apples","Oranges","Bananas"],"xaxis":"x","y":[4,1,2],"yaxis":"y"},{"alignmentgroup":"True","hovertemplate":"City=Montreal<br>Fruit=%{x}<br>Amount=%{y}<extra></extra>","legendgroup":"Montreal","marker":{"color":"#EF553B","pattern":{"shape":""}},"name":"Dataset #2","offsetgroup":"Montreal","orientation":"v","showlegend":"true","textposition":"auto","type":"bar","x":["Apples","Oranges","Bananas"],"xaxis":"x","y":[2,4,5],"yaxis":"y"}]}),
             width={"size": 12},
         ),
     ])
